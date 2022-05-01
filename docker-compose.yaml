@@ -1,0 +1,7 @@
+version: '3'
+services:
+  pandoc:
+    build: .
+    volumes:
+      - .:/data
+    command: ["sleep","inf"]

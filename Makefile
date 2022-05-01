@@ -4,8 +4,9 @@ FONTS_DIR = fonts
 SCAFFOLDS_DIR = scaffolds
 IMAGES_DIR = $(SRC_DIR)/images
 DIST_DIR = dist
-HTMLTOPDF = wkpdf
+HTMLTOPDF = wkhtmltopdf
 DATE = $(shell date +'%B %d, %Y')
+OUTPUT = cv
 
 ifeq "$(wildcard $(SRC_DIR) )" ""
 	PARTS_SOURCES=
@@ -45,7 +46,7 @@ scaffold:
 ifeq "$(wildcard $(SRC_DIR) )" ""
 	rsync -rupE $(SCAFFOLDS_DIR)/ $(SRC_DIR)/;
 	@echo $(SRC_DIR) created, enjoy!;
-else 
+else
 	@echo $(SRC_DIR) already exists!;
 endif
 
@@ -68,7 +69,6 @@ media: | directories
 html: media style templates/cv.html parts $(SRC_DIR)/cv.md | directories
 	pandoc --standalone \
 	  --section-divs \
-	  --smart \
 	  --template templates/cv.html \
 	  --from markdown+yaml_metadata_block+header_attributes+definition_lists \
 	  --to html5 \
@@ -81,11 +81,11 @@ html: media style templates/cv.html parts $(SRC_DIR)/cv.md | directories
 # Target for building CV document in PDF
 pdf: html pdftags
 ifeq ($(HTMLTOPDF),wkpdf)
-	wkpdf --paper a4 --margins 30 --print-background yes --orientation portrait --stylesheet-media print --source $(DIST_DIR)/cv.html --output $(DIST_DIR)/cv.pdf
+	wkpdf --paper a4 --margins 30 --print-background yes --orientation portrait --stylesheet-media print --source $(DIST_DIR)/cv.html --output $(DIST_DIR)/$(OUTPUT).pdf
 else
-	wkhtmltopdf --print-media-type --orientation Portrait --page-size A4 --margin-top 15 --margin-left 15 --margin-right 15 --margin-bottom 15 $(DIST_DIR)/cv.html $(DIST_DIR)/cv.pdf
+	wkhtmltopdf --print-media-type --orientation Portrait --page-size A4 --margin-top 15 --margin-left 15 --margin-right 15 --javascript-delay 5000 --margin-bottom 15 $(DIST_DIR)/cv.html $(DIST_DIR)/$(OUTPUT).pdf
 endif
-	exiftool $(shell cat $(BUILD_DIR)/pdftags.txt) $(DIST_DIR)/cv.pdf
+	exiftool $(shell cat $(BUILD_DIR)/pdftags.txt) $(DIST_DIR)/$(OUTPUT).pdf
 
 pdftags: $(SRC_DIR)/cv.md
 	pandoc \
@@ -108,4 +108,3 @@ $(PARTS): $(BUILD_DIR)/%.html: $(SRC_DIR)/%.md | directories
 clean:
 	rm -rf $(DIST_DIR)
 	rm -rf $(BUILD_DIR)
-
