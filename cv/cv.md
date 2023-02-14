@@ -8,7 +8,7 @@ contact: mailto:christian@qnib.org
 email: christian@qnib.org
 mobile: '+49 152 21803161'
 address:
-  city: Berlin,
+  city: Potsdam,
   country: Deutschland
 settings:
   protect-email: true
@@ -24,8 +24,8 @@ Profil
 ======
 
 Über mich
-: Ich bin ein Praktiker und lerne am Besten, in dem ich mich in Probleme einarbeite, Anwendungsfälle durchdringe und eine prototypische Lösung erstelle. Dabei betrachte ich das Problem holistisch von unterschiedlichen Blickwinkeln (Anwender-, sowie Betriebs- und Verwaltungssicht) und mir Feedback aus meinem Netzwerk und beteiligten Communities einhole.<br>
-Über die vergangenen (fast) 20 Jahre habe ich eine große Bandbreite von Rollen (Auszubildender, System/DevOps/R&E/Release Engineer, Customer Advocate, Solution Architect und Developer Advocate) in unterschiedlichen Branchen und interdiziplinären Teams weltweit erfahren dürfen.
+: Ich bin ein Praktiker und lerne am Besten, in dem ich mich in Probleme einarbeite, Anwendungsfälle durchdringe und eine prototypische Lösung erstelle. Dabei betrachte ich das Problem holistisch von unterschiedlichen Blickwinkeln (Anwender-, sowie Betriebs- und Verwaltungssicht) und arbeite Feedback aus meinem Netzwerk und beteiligten Communities ein.<br>
+Über die vergangenen (fast) 20 Jahre habe ich eine große Bandbreite von Rollen (Auszubildender, System/DevOps/R&E/Release Engineer, Customer Advocate, Solution Architect und Developer Advocate) in unterschiedlichen Branchen und interdiziplinären Teams weltweit erfahren dürfen. Seit Mitte 2022 arbeite ich als Solo-Selbstständiger an einer Container Registry für High Performance Computing.
 
 Kollaboration & Innovation
 : Durch Auftritte bei Konferenzen, Workshops und Meetups, Blog post, Partizipation in Podcast und Tutorials, habe ich meine Erfahrungen und Ideen für andere konsumierbar gemacht. In gemeinsamen Engagements mit dem Max Plank Institute, HPC Nepal, Nationale Rechenzentren der Schweiz (CSCS), den USA (LLNL, NERSC, LANL) und vielen weiteren habe ich Innovationen stets vorantreiben können und tue dies immernoch mit Leidenschaft.
@@ -41,12 +41,22 @@ Beruflicher Werdegang
 
 Im Laufe der Zeit bin ich durch eine Reihe von unterschiedlichen Rollen, Branchen und Arbeitskulturen mit unterschiedlichen Sprachen iteriert.
 
+**QNIB Solutions**
+: Nachdem ich die Verschiebung des Rollenverständnis in AWS nicht mehr mitgehen wollte, habe ich mich selbstständig gemacht um meine Vision einer Container Registry umzusetzen.
+
+    05/2022 - heute
+     ~ **MetaHub Registry**: Seit 2022 arbeite ich an einer kontextualen Container Registry, um container images auszuliefern, die der spezifischen Umgebung des Anwenders Rechnung tragen (CPU Architektur).
+
+    09/2022 - heute
+     ~ **HPC Container Conformance** Project: In diesem Community getriebenen Projekt erstelle und sammle ich best-practices für Container in HPC Umgebungem im Bereich building und meta-data, sowie die Integration in bestehende Umgebungen.
+
+<br>
 
 **AWS**
 : Ich habe Amazon Web Services (AWS) als *Senior Specialist Solutions Architect for EC2 Spot* angefangen und bin nach einem Jahr in das High Performance Computing (HPC) Produkt Team gewechselt, um das 'Developer Relations Team for High Performance Computing' Team zu formen.
 
     05/2020 - 04/2022
-      ~ **Senior Developer Advocate for HPC/Batch**: Zusammen mit meinem Manager haben ich das 'Developer Relations Team for HPC/Batch' mitbegründet. Die Rolle hatte externe Komponenten (Technische Blogartikel, Youtube Videos, Workshops), sowie interne Anteile (Feedback von dem Vertrieb aggregieren und dem Kollegen im Produkt Team mitteilen, technisches Feedback bei Produktentwicklungen, um die Produkte und Services zu verbessern.
+      ~ **Senior Developer Advocate for HPC/Batch**: Zusammen mit meinem Manager haben ich das 'Developer Relations Team for HPC/Batch' mitbegründet. Die Rolle hatte externe Komponenten (Technische Blogartikel, Youtube Videos, Workshops), sowie interne Anteile (Feedback des Vertrieb aggregieren und den Kollegen im Produkt Team verständlich machen, technisches Feedback bei Produktentwicklungen, um die Produkte und Services zu verbessern.
 
     07/2019 - 04/2020
       ~ **Senior Specialist Solutions Architect EC2 Spot**: Als Teil des *Specialist Solutions Architect* Teams habe ich Account Teams in Europa, Mittlerer Osten und Africa (EMEA) und darüber hinaus unterstützt EC2 Spot (rabbatierte, ungenutzte Instanzen) zu nutzen. Hauptsächlich durch externe Dokumentation, Workshops für Kollegen und Kunden, um das Wissen über EC2 Spot zu erweitern. Zusätzlich habe ich prototypische Implementationen erstellt und Feedback zu dem EC2 Produkt Team in Seattle gegeben.
@@ -104,8 +114,6 @@ Im Laufe der Zeit bin ich durch eine Reihe von unterschiedlichen Rollen, Branche
 
     08/2002 - 07/2005
       ~ **Ausbildung 'Fachinformatiker/Systemintegration'**
-
-<br><br><br><br><br>
 
 Sonstige Stationen
 ======================
