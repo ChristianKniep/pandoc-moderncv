@@ -20,8 +20,7 @@ footer: |
   -
 ---
 
-Profil
-======
+## Profil
 
 Über mich
 : Ich bin ein Praktiker und lerne am Besten, in dem ich mich in Probleme einarbeite, Anwendungsfälle durchdringe und eine prototypische Lösung erstelle. Dabei betrachte ich das Problem holistisch von unterschiedlichen Blickwinkeln (Anwender-, sowie Betriebs- und Verwaltungssicht) und mir Feedback aus meinem Netzwerk und beteiligten Communities einhole.<br>
@@ -36,20 +35,21 @@ Vision
 Persönliche Engagements 
 : Seit seiner Gründung in 2021 bin ich erster Vorsitzender des Vereins 'Böddenstedt vernetzt - Verein zur Förderung bürgerschaftlichen Engagemnts e.V.'. Ziel des Vereins ist die Vernetzung der Dorfgemeinschaft meines Heimatortes in Niedersachsen durch Informationsaustausch und Bündelung von Ressourcen.
 
-Beruflicher Werdegang
-======================
+## Beruflicher Werdegang
 
 Im Laufe der Zeit bin ich durch eine Reihe von unterschiedlichen Rollen, Branchen und Arbeitskulturen mit unterschiedlichen Sprachen iteriert.
 
 **QNIB Solutions**
 
-: Nach dem Fortgang von AWS habe ich das Projekt MetaHub verfolgt. Eine Container Registry die den Kontext des Users in Batracht zieht um optimierte Container images bereitzustellen. Weiter habe ich in 2023 angefangen als freier Mitarbeiter und IT Berater zu arbeiten.
+: Nach dem Fortgang von AWS habe ich das Projekt MetaHub verfolgt. Eine Container Registry die den Kontext des Users in Batracht zieht um optimierte Container images bereitzustellen. Nach einem Jahr vollen Fokus auf die Registry habe ich Mitte 2023 angefangen als freier Mitarbeiter und IT Berater zu arbeiten.
 
-    06/2023
-      ~ **IT Consultant**: Im Juni 2023 habe ich ein AI Startup for eine Venture Capital Firma im Bezug auf die AI Strategie und den Container TechStack evaluiert.
+    07/2023
+      ~ **Tech Due Dilligence**: Im Juli 2023 habe ich ein AI Startup für [EarlyBird Venture Capital](https://earlybird.com/) im Bezug auf die AI Strategie und den Container TechStack evaluiert. Das StartUp entwickelt eine Kubernetes basierte Deployment platform für AI Modelle 'on the edge'.
+
     05/2022 - heute
-      ~ **Entrepreneur MetaHub**  
+      ~ **Project Lead MetaHub** Mit MetaHub habe ich eine Projektidee aus 2019 wieder aufgegriffen bei der eine Container Registry über den Kontext eines Users optimierte Container Images bereitstellt. 
 
+<div style="page-break-after: always"></div>
 
 **AWS**
 : Ich habe Amazon Web Services (AWS) als *Senior Specialist Solutions Architect for EC2 Spot* angefangen und bin nach einem Jahr in das High Performance Computing (HPC) Produkt Team gewechselt, um das 'Developer Relations Team for High Performance Computing' Team zu formen.
@@ -114,10 +114,7 @@ Im Laufe der Zeit bin ich durch eine Reihe von unterschiedlichen Rollen, Branche
     08/2002 - 07/2005
       ~ **Ausbildung 'Fachinformatiker/Systemintegration'**
 
-<br><br><br><br><br>
-
-Sonstige Stationen
-======================
+## Sonstige Stationen
 
 **Uni Suderburg**
 : Regionale Universität in Niedersachsen
@@ -136,9 +133,11 @@ Sonstige Stationen
       ~ **IT-Berater**, PT. Sinergy Media Informasi, Bandung, Indonesia. <br>
       Für einen Tag die Woche habe ich in einer IT-Beratungsfirma Prototypen für das Rechenzentrumsmonitoring, Überwachungskamera-Management, und verteilte Infobildschirme mit Hilfe von Open-Source Projekten geplant.
 
+## Studium
 
-Studium
-===========
+2016-2017
+:    **M.Sc.**, *TU Berlin*, Berlin, Germany \
+   Zwei Semester während der Vollzeitanstellung bei Playstation Now um Praxis und Therorie zusammenzubringen.
 
 2008-2011
 :    **B.Sc.**, *Universität Tübingen*, Tübingen, Germany \
@@ -150,23 +149,30 @@ Studium
     Beschreibung
       ~ Ziel der Arbeit war eine flexible, modulare und intuitive Überwachung des Hochgeschwindigkeitsnetzwerks Inifiband in High Performance Computing Umgebungen.
 
-2016-2017
-:    **M.Sc.**, *TU Berlin*, Berlin, Germany \
-   Zwei Semester während der Vollzeitanstellung bei Playstation Now um Praxis und Therorie zusammenzubringen.
+## Projekte
 
+2019 - heute
+: **MetaHub Registry**: Eine Container Registry, welche den Kontext des Users in Betracht zieht, um optimierte Container Images bereitzustellen. Normale Registries können sich nicht auf den anfragenden Benutzer/Client einlassen, da sie einfach statisch Images ausliefern. MetaHub nutzt den Usernamen und ein Profil um dynamisch reagieren zu können. [](https://frontend.metahub-registry.org/)
 
-Community Engagements
-==================
+2023 - heute
+: **QNIB Shuffle**: Ein projekt um Dokumentationen zu modulariesieren. Als Developer Advocate bei AWS habe ich die Pipeline von publizierten von Workshops verantwortet und festgestellt, dass die Autoren stets von einem Workshop gestartet sind, den sie im Zugriff hatten und diesen abänderten. Damit wurde jedoch verhindert, dass Workshops von einander lernen können (upstream contribution) und die Autoren sich mit den anderen Workshops auseinandersetzen. QNIB Shuffle ist ein Projekt, welches die Dokumentationen modularisiert und den Autoren ermöglicht auf eine Blaupause aufzubauen, zu der sie (1) upstream beitragen können und (2) die sie für ihre Zwecke anpassen können. QNIB Shuffle setzt diese Erfahrung um und befindet sich gerade im Aufbau. [](https://qnib-golang.gitlab.io/qshuf/index.html)
+
+2022 - heute
+: **HPC Container Conformance**: Ein Open Source Projekt, welches die Konformität von Container Engines in HPC Umgebungen zum Ziel hat. Das Projekt definiert best-practice und Guidelines wie container images gebaut werden sollten, welche Annotationen sie enthalten sollten und wie sie getestet werden können. [](https://blog.qnib.org/blog/2023/01/30/the-hpc-container-conformance-project)
+
+## Community Engagements
 
 Durch meine explorative und kommunikative Natur habe ich meine Projekte und Ideen stets in der Öffentlichkeit kommuniziert und diskutiert.
 Meine YouTube playlist *Appearances* ([](https://www.youtube.com/playlist?list=PLfE3_wJGw9KS3PBvqEcDdpiODeDjAs5v8)) ist eine Sammlung dieser Engagements.
 
-HPC/AI Konferenzen
------------------
+### HPC/AI Konferenzen
 
 **SC**
 :   Die Supercomputing Conference (SC) ist die weltweite Leitmesse für High Performance Computing (wissenschaftliches Rechnen) und wird alljährlich in den USA veranstaltet. Mit über 10.000 Teilnehmern und einem Fokus auf Höchstleistungsrechnungen und (mittlerweile) Künstliche Inteligenz.<br><br>
 
+    **'23** 
+      ~ Review Board des HPC Container Workshop CANOPIE-HPC.
+   
     **'22** 
       ~ Publicity Chair des HPC Container Workshop CANOPIE-HPC.
    
@@ -179,11 +185,14 @@ HPC/AI Konferenzen
     **'17**
       ~ Teilnahme als Docker Mitarbeiter, um container Technologie in HPC bekannt zu machen.
 
-<br><br><br>
+<div style="page-break-after: always"></div>
 
 **ISC**
 :    Die International Supercomputing Conference (ISC) ist die europäische Leitmesse und 'Schwesterkonferenz) zur Supercomputing Conference (SC) in den USA. Mit ~3000 Teilnehmern ist sie ein wenig kleiner und wird jeden Sommer in Deutschland veranstaltet.<br><br>
 
+    **'23**
+      ~ Chair des Workshops **9th Annual High Performance Container Workshop** [](https://container-in-hpc.org/isc/2023/hpcw/index.html)
+  
     **'22**
       ~ Chair des Workshops **8th Annual High Performance Container Workshop** [](https://container-in-hpc.org/isc/2022/1_hpcw.html)
       ~ Chair der 'Bird Of a Feather Session' container-in-HPC: [](https://container-in-hpc.org/isc/2022/2_bof.html)
@@ -223,8 +232,7 @@ HPC/AI Konferenzen
     **'12**
       ~ **InfiniBand? Problems? Do You Care?** [](http://de.slideshare.net/sciecomp/isc-12-bofinfinibandproblems)
 
-HPC/AI Community
--------
+### HPC/AI Community
 
 **BDEC2**
 :    In der 'invite-only' Workshopreihe '**B**ig **D**ata and **E**xtrem Scale **C**omputing' werden die zukünftigen Herausforderungen und Chancen von High Performance Computing und Künstlicher Inteligenz diskutiert. Ausgerichtet von den nationalen Höchstleistungsrechenzentren werden Experten aus unterschiedlichen Bereichen eingeladen, um Expertise beizubringen.
@@ -246,6 +254,9 @@ HPC/AI Community
 
 **HPC/AI AC**
 : Von der Community getragene, weltweite Workshopreihe **HPC/AI Advisory Council**, welche die neusten Entwicklungen und Möglichkeiten im High Performance Cmputing (HPC) diskutiert.
+
+    04/2023
+      ~ **HPC Container Conformance Project**, Lugano, Switzerland [](https://youtu.be/mnwUHJBEWPQ)
 
     09/2018
       ~ **State of Containers**, Valencia, Spain [](https://www.youtube.com/watch?v=QTXbPxi6RSs)
@@ -274,9 +285,11 @@ HPC/AI Community
     11/2014
       ~ **QNIBTerminal plus InfiniBand: Containerized MPI Workloads**, Guangzhou, China [](https://www.youtube.com/watch?v=f_663isRkXQ)
 
-<br><br>
+<br><br><br><br><br>
 
-**Andere Events**
+### Andere Events
+
+**Workshops**
 : Neben den oben aufgelisteten Workshopreihen habe ich in unterschiedlichen anderen Formaten teilgenommen.
 
     06/2019
@@ -288,8 +301,7 @@ HPC/AI Community
     03/2018
       ~ **State of Container** bei der **HPC Saudi**, Jeddah, Saudi Arabia
 
-Community
------------
+### Community
 
 **DockerCon**
 : Die Hausmesse der Firma 'Docker Inc'
@@ -298,7 +310,7 @@ Community
       ~ **Accessible High Performance Computing for Everyone with Docker and Containers** [](https://www.youtube.com/watch?v=bipJNgYYNQs&list=PLkA60AVN3hh96Ef6GljWoGpXPG23rN7tQ&t=0s&index=54)
 
 **Container Days**
-: Deutsche Konferenz rund um Container Technologie.<br><br>
+: Deutsche Konferenz rund um Container Technologie.
 
     06/2019
       ~ **State of Containers in Big Data and Big Compute** [](https://www.containerdays.io)
@@ -308,6 +320,9 @@ Community
 
 **FOSDEM**
 : Alljährliche Open Source Konferenz in Belgien
+
+    02/2023
+      ~ **HPC Container Conformance Project** ([](https://archive.fosdem.org/2023/schedule/event/metahub/))
 
     02/2021
       ~ 'HPC Container Engine State-of-Art 2021' ([](https://archive.fosdem.org/2021/schedule/event/hpc_container_engine_state_of_art/))
