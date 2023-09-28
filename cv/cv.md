@@ -9,7 +9,7 @@ email: christian@qnib.org
 mobile: '+49 152 21803161'
 address:
   city: Potsdam,
-  country: Deutschland
+  country: Germany
 settings:
   protect-email: true
   protect-mobile: true
@@ -20,124 +20,130 @@ footer: |
   -
 ---
 
-## Profil
+## Profile
 
-Über mich
-: Ich bin ein Praktiker und lerne am Besten, in dem ich mich in Probleme einarbeite, Anwendungsfälle durchdringe und eine prototypische Lösung erstelle. Dabei betrachte ich das Problem holistisch von unterschiedlichen Blickwinkeln (Anwender-, sowie Betriebs- und Verwaltungssicht) und mir Feedback aus meinem Netzwerk und beteiligten Communities einhole.<br>
-Über die vergangenen (fast) 20 Jahre habe ich eine große Bandbreite von Rollen (Auszubildender, System/DevOps/R&E/Release Engineer, Customer Advocate, Solution Architect und Developer Advocate) in unterschiedlichen Branchen und interdiziplinären Teams weltweit erfahren dürfen.
+About Me
+: With more than 20 years in the industry I experienced a broad set of different roles (IT Apprentice, System/DevOps/R&D/Release Engineer, Customer Advocate, Solution Architect, Developer Advocate) and different industries with colleagues from all over the world. <br>
+I had early exposure to container technology (since Docker v0.7 end of 2014), 12factor principles, and DevOps practises which are deeply rooted in my day-to-day routines. <br>
+Futhermore, my experience in different working environments (conservative automobile IT in the 2000s, french R&D in the 2010s, fast paced startup in the 2010s, and the fast growing AWS in the 2020s) allows me to adapt to different cultures and work environments.<br>
+I am a strong believer in the power of open source and open standards. I am a passionate advocate of container technology and the convergence of HPC, BigData and AI/ML. I am a regular speaker at conferences and workshops around the globe.
 
-Kollaboration & Innovation
-: Durch Auftritte bei Konferenzen, Workshops und Meetups, Blog post, Partizipation in Podcast und Tutorials, habe ich meine Erfahrungen und Ideen für andere konsumierbar gemacht. In gemeinsamen Engagements mit dem Max Plank Institute, HPC Nepal, Nationale Rechenzentren der Schweiz (CSCS), den USA (LLNL, NERSC, LANL) und vielen weiteren habe ich Innovationen stets vorantreiben können und tue dies immernoch mit Leidenschaft.
+Collaboration & Education
+: By giving talks (see below) writing blog posts blog.qnib.org, recording the podcast ' Insert Buzzword' and participating and organising community events, I generate content for others to consume, push myself forward into unknown territory and battle test my believes with every encounter and discussion along the way.
 
 Vision
-: Diversifizierte Umgebungen in der Cloud, in lokalen Rechenzentren und in der Breite (Edge/IoT) mit unterschiedlichen Architekturen (Monolit, Microservies, Serverless) und Organisationsstrukturen (matrix, hierachisch, projektbasiert) üben seit langem eine Fazination auf mich aus. Mein Ansporn ist es, dies in anwendungsorientierten und zukunftsgewandten Projekten für die breite Masse verfügbar zu machen und Synergien zu heben.
+: The continuum of the placement (on-prem/cloud/edge/iot), the architecture (monolith, microservice, serverless), organisational structures (matrix, hierarchical, loose project) needs the ability to prototype, pivot fast and combine these different dimensions.
 
-Persönliche Engagements 
-: Seit seiner Gründung in 2021 bin ich erster Vorsitzender des Vereins 'Böddenstedt vernetzt - Verein zur Förderung bürgerschaftlichen Engagemnts e.V.'. Ziel des Vereins ist die Vernetzung der Dorfgemeinschaft meines Heimatortes in Niedersachsen durch Informationsaustausch und Bündelung von Ressourcen.
+Personal Engagements
+: I am the co-founder and chair of an NGO promoting my small hometown in Lower Saxony (northern Germany) 'Böddenstedt vernetzt - Verein zur Förderung bürgerschaftlichen Engagemnts e.V.'. It was established in 2021 and interconnects different groups within the local community as well as strenghening the connection to local government and companies to improve the quality of life in the village.
 
-## Beruflicher Werdegang
+## Employement
 
-Im Laufe der Zeit bin ich durch eine Reihe von unterschiedlichen Rollen, Branchen und Arbeitskulturen mit unterschiedlichen Sprachen iteriert.
+Over the course of my career I iterated through a lot of roles in different industries, working cultures, and functions within companies. This experience fosters my adaptive and pro-active work attitude.
 
 **QNIB Solutions**
+: After leaving AWS I founded my own company to be able to work on projects I am passionate about.
 
-: Nach dem Fortgang von AWS habe ich das Projekt MetaHub verfolgt. Eine Container Registry die den Kontext des Users in Batracht zieht um optimierte Container images bereitzustellen. Nach einem Jahr vollen Fokus auf die Registry habe ich Mitte 2023 angefangen als freier Mitarbeiter und IT Berater zu arbeiten.
-
+    06/2023 - today
+      ~ **Freelance IT Consultant**,Max Planck Institute for Human Development, Berlin, Germany<br>
+      Extending traditional storage w/ MinIO on K8s, Consolidating asset management to JIRA Assets, consult w/ containers in research environment.
     07/2023
       ~ **Tech Due Dilligence**: Im Juli 2023 habe ich ein AI Startup für [EarlyBird Venture Capital](https://earlybird.com/) im Bezug auf die AI Strategie und den Container TechStack evaluiert. Das StartUp entwickelt eine Kubernetes basierte Deployment platform für AI Modelle 'on the edge'.
 
-    05/2022 - heute
-      ~ **Project Lead MetaHub** Mit MetaHub habe ich eine Projektidee aus 2019 wieder aufgegriffen bei der eine Container Registry über den Kontext eines Users optimierte Container Images bereitstellt. 
+    05/2022 - today
+      ~ **Project Lead MetaHub** After leaving AWS I picked up the project MetaHub to create a container registry to serve optimized container images based on the context of a user. 
 
 <div style="page-break-after: always"></div>
 
 **AWS**
-: Ich habe Amazon Web Services (AWS) als *Senior Specialist Solutions Architect for EC2 Spot* angefangen und bin nach einem Jahr in das High Performance Computing (HPC) Produkt Team gewechselt, um das 'Developer Relations Team for High Performance Computing' Team zu formen.
+: I joined AWS as Senior Specialist Solutions Architect for EC2 Spot. After almost a year into the role I moved to the HPC product team as the first member of the newly formed Developer Relations Team for High Performance Computing.
 
     05/2020 - 04/2022
-      ~ **Senior Developer Advocate for HPC/Batch**: Zusammen mit meinem Manager haben ich das 'Developer Relations Team for HPC/Batch' mitbegründet. Die Rolle hatte externe Komponenten (Technische Blogartikel, Youtube Videos, Workshops), sowie interne Anteile (Feedback von dem Vertrieb aggregieren und dem Kollegen im Produkt Team mitteilen, technisches Feedback bei Produktentwicklungen, um die Produkte und Services zu verbessern.
+      ~ **Senior Developer Advocate for HPC/Batch**: For the first 6 month I was the frst and only member (besides my Manager) of the Developer Relations Team for HPC/Batch, which meant to define the role and responsibilities of the team. The role had external components (technical blog post, workshops and youtube videos) and internal facing once (funnel feedback from the field to the product team), collaborate closely with the engineering team within product development to improve existing and create new services.
 
     07/2019 - 04/2020
-      ~ **Senior Specialist Solutions Architect EC2 Spot**: Als Teil des *Specialist Solutions Architect* Teams habe ich Account Teams in Europa, Mittlerer Osten und Africa (EMEA) und darüber hinaus unterstützt EC2 Spot (rabbatierte, ungenutzte Instanzen) zu nutzen. Hauptsächlich durch externe Dokumentation, Workshops für Kollegen und Kunden, um das Wissen über EC2 Spot zu erweitern. Zusätzlich habe ich prototypische Implementationen erstellt und Feedback zu dem EC2 Produkt Team in Seattle gegeben.
+      ~ **Senior Specialist Solutions Architect EC2 Spot**: As part of the Specialist Solutions Architect Team I was supporting the Account Teams within EMEA (Europe, Middle East, Africa) and beyond to help customers make the most out of EC2 Spot. Mainly providing external documentation for customers and colleagues to level up their knowlegde about EC2 Spot. In addition working on Proof-of-Concepts to foster the understanding and funneling feedback to product development in Seattle.
 
 **Docker Inc**
-: Bei Docker Inc habe ich zum ersten Mal in meiner Karriere eine Rolle im Vertrieb übernommen, um Kunden direkt bei der Nutzung der Docker Container Plattform zu unterstützen.
+: I started at Docker taking on a new role I never held before, helping Dockers customers to make the most out of the product suite.
 
     10/2018 - 05/2019
-      ~ **EMEA Lead 'Proactive Customer Engagement'** In dieser Rolle war ich der technische Ansprechpartner des proaktiven Kundenteam in EMEA und habe mit dem gesamten Docker Team (Partner Management, Vertrieb, Marketing, Produktentwicklung) zusammengearbeitet, um Kundenprobleme zu lösen.
+      ~ **EMEA Lead 'Proactive Customer Engagement'**: This role focused on the aspects of resource planning within the team as well as engage with the full Docker team (Partner Mgmt, Sales, Marketing, Prod/Dev) to fill gaps hindering customers to adopt Docker to the fullest.
 
     10/2017 - 05/2019
-      ~ **Technical Account Manager**: Der TAM bei Docker war nicht fokusiert auf Vertriebszyklen oder Support Tickets, mehr ein unabhängiger Berater und Innovationsförderer, um die aggregierten Bedarfe der Kunden zu formulieren und in die Zukunft zu projizieren.
+      ~ **Technical Account Manager**: Unlike other companies this role was not focusing on support cases or sales cycles. It turned into being an innovation advisor for the customers I had and advocate their needs internally as well as extrapolate what the customer needs are in the future.
 
 **Playstation Now**
-: Innerhalb von 'Sony Interactive Entertainment' habe ich die Containerisierung der Cloud Infrastruktur für den Dienst 'Playstation Now' (Cloudgaming) vorangetrieben.
+: Within Sony Interactive Entertainment (Gaikai Inc.) I led the efforts to containerise the cloud stack of the game-streaming service Playstation Now.
 
     07/2015 - 09/2017
-      ~ Als **Release Engineer** war das erste Jahr geprägt, die richtige Container Strategie zu erforschen und zu sichten, im zweiten Jahr habe ich die Erkenntnisse in einem Prototyp und ersten Produktiv-Diensten implementiert.
+      ~ As a Release Engineer the first half of this employment was shaped by researching, prototyping and deciding what container technology to use. The implementation phase was dominated by educating colleagues, discussing nuances, design for scale, and migrate the first service to a new containerized deployment.
 
 **Locafox GmbH**
-: Die erste Erfahrung in einem Startup (10 Software Entwickler) im Bereich *local-commerce*.
+: The first experience with startups was a small (10 engineers) startup creating a local-commerce platform.
 
     12/2014 - 07/2015
-      ~ **DevOps Engineer**: Während dieser Zeit habe ich die Entwicklungsumgebung der Software Entwickler zu einer Microservice Umgebung umgebaut, um die Entwicklungszyklen zu verkürzen, Abhängigkeiten besser zu modelieren, die Skalierbarkeit und das Testen zu verbessern. Dies beinhaltete die Containeresierung der Entwicklungsumgebung, '12-factor-app best-practices' und die Implementierung innerhalb von privaten und öffentlichen Cloud-Umgebungen.
+      ~ **DevOps Engineer**: I streamlined the development by providing the means for the developers to split apps into microservices, improving scalability and testing. This included starting to containerise the stack, implement 12-factor-app best practises, and handling private and public clouds.
 
 **Atos**
-: Während meiner zwei Jahre in Paris habe ich innerhalb der Forschung- und Entwicklungsabteilung von ATOS an dem *Bull Exascale Interconnect* gearbeitet, einem High Performance Computing Netzwerk.
+: During my two years in Paris I worked in the R&D department for the Bull Exascale Interconnect (BXI).
 
     01/2013 - 10/2014
-      ~ Als **R&D HPC Engineer** war die Hauptaufgabe eine *Performance Managment* Komponente zu entwickeln, welche in der Lage war von zehntausenden von Endpunkten (Switches und Endgeräten) Metriken zu sammeln, zu verarbeiten und zu visualisieren. Zu dieser Zeit wurde Docker veröffentlicht, was mich dazu brachte dies in meinen täglichen Arbeitsablauf zu integrieren.
+      ~ As an R&D HPC Engineer the main task was to create a Performance Management component to gather, process and access metrics information. While at Atos I learned about Docker and started to include containers in my day-2-day workflow.
 
 **s+c ag**
-: Bei der *Science + Computing AG* habe ich mehrere Rollen innerhalb der Automobilindustrie kennengelernt und angefangen mich mit HPC Netzwerken zu beschäftigt.
+: Within the Science + Computing AG I held multiple roles over the course of a couple of years.
 
     09/2011 - 12/2012
-      ~ **Senior Systems Engineer**: Betrieb und Verwaltung eines großen crash-test Cluster (x*1000 Rechenknoten) im R&D Bereich eines großen Automobilherstellers. Hauptfokus war Infiniband, GPFS/Lustre und Verwaltung von Berechnungsjobs.
+      ~ **Senior Systems Engineer**: Operations and maintenance of a large (x*1000 nodes) crash-test cluster on behalf of an automotive vendor. Main focus: InfiniBand, GPFS/Lustre, job flow.
 
     11/2010 - 08/2011
-      ~ **Systems Engineer (20Std/Woche, neben dem Studium)**: Mitarbeit beim Clusterbetrieb, sowie IT-Berater für einen Automobilhersteller.
+      ~ **Systems Engineer (part time employee 20h/week, alongside my B.Sc. study)**: Assistance in operations of cluster services as well as IT consultant for an automotive vendor.
 
     09/2008 - 07/2010
-      ~ **Systems Engineer (Werkstudent 20Std/Woche)**: Erstellung einer halbjährlichen Evaluation von Arbeitsplatzrechnern für ein Konsortium von deutschen Automobilherstellern.
+      ~ **Systems Engineer (working student 20h/week)**: Creating a biannual 'workstation evaluation' report for german automotive task-force.
 
 **PROSIS GmbH**
-: IT-Beratungsfirma in der Region Ingolstadt
+: IT service company in the Ingolstadt region
 
     09/2006 - 09/2008
-      ~ **IT-Berater** Meine Hauptaufgabe war die Unterstützung von Entwicklungsingenieuren (Computer Aided Engineering, CAE) und VR Systemen im Forschungsbereich der AUDI AG, sowie die Optimierung der hauseigenen IT.
+      ~ **IT-Consultant** Main responsibility was CAE and VR-system service at automotive vendor, alongside in-house optimization of IT operations.
+
+<div style="page-break-after: always"></div>
 
 **Uni Lüneburg**
-: Der erste Kontakt mit UNIX Systemen (Linux und MacOS) in dem Rechen- und Medienzentrum (RMZ) der Universität Lüneburg.
+: University of Lüneburg, a regional University in northern Germany.
 
     07/2005 - 12/2005
-      ~ **IT-Berater**: Erstellung eines digitalen Videorekorder-System (basierend auf Linux), um die analogen Videorekorder des RMZ abzulösen. Diese haben TV Programme für die Forschung und Lehre aufgenommen und archiviert.
+      ~ **IT-Consultant**: Building a video disk recorder system (based on Linux) to record TV broadcasts
 
     08/2002 - 07/2005
-      ~ **Ausbildung 'Fachinformatiker/Systemintegration'**
+      ~ **Apprentice 'IT-Specialist' ('Fachinformatiker/Systemintegration')**
 
-## Sonstige Stationen
+## Short Engagements
 
 **Uni Suderburg**
-: Regionale Universität in Niedersachsen
+: At the local University of Applied Science Suderburg, I taught at the IT faculty.
 
     02/2015
-      ~ Einwöchiger Lehrgang ’Cloud Computing and Virtualization’ an der Universität Suderburg. Ein praktisches und theroetisches Seminar über traditionelle und Container-basierte Virtualisierung, monolitische und verteilte Applicationen, Microservices, statefull und stateless Softwarearchitekturen.
+      ~ 1 week elective lecture ’Cloud Computing and Virtualization’. Practical and theoretical seminar including topics such as: Traditional and Container Virtualization, Monolithic and Distributed Applications, Micro-Service Architecture, Statefull / Stateless Cloud Application.
 
-**Indonesien**
-: In 2010 habe ich drei Monate meiner Semesterferien in Indonesien verbracht, um Eindrücke andere Kulturen und Arbeitsweisen zu sammeln, als die streng geregelten Arbeitsabläufe in der deutschen Automobilwirtschaft zu dieser Zeit.
-
-    07/2010 – 10/2010
-      ~ **IT-Lehrer**, Int. Center of Applied Technologies, Bandung, Indonesia.<br>
-        Als Praktikant (über AISEC) habe ich Studenten an UNIX, Python, git, LaTex und Netzwerktechnolgie vermittelt, sowie Abschlussarbeiten betreut.
+**Indonesia**
+: In 2010 I spent the 3 month semester break working in Indonesia, as I wanted to break out for a bit from the stiffness of big automotive vendor IT.
 
     07/2010 – 10/2010
-      ~ **IT-Berater**, PT. Sinergy Media Informasi, Bandung, Indonesia. <br>
-      Für einen Tag die Woche habe ich in einer IT-Beratungsfirma Prototypen für das Rechenzentrumsmonitoring, Überwachungskamera-Management, und verteilte Infobildschirme mit Hilfe von Open-Source Projekten geplant.
+      ~ **Lecturer**, Int. Center of Applied Technologies, Bandung, Indonesia.<br>
+      I taught UNIX,python, git, LaTeX and networking alongside mentoring on IT graduation projects.
 
-## Studium
+    07/2010 – 10/2010
+      ~ **IT Consultant**, PT. Sinergy Media Informasi, Bandung, Indonesia.<br>
+      1 day per week I worked in a IT Service company implementing open-source projects for a CCTV-Monitoring system, distributed infoScreen system and datacenter monitoring.
+
+## Education
 
 2016-2017
-:    **M.Sc.**, *TU Berlin*, Berlin, Germany \
-   Zwei Semester während der Vollzeitanstellung bei Playstation Now um Praxis und Therorie zusammenzubringen.
+: **M.Sc.**, *TU Berlin*, Berlin, Germany \
+  Two semester while fully employed at Playstation Now with support from my manager.
 
 2008-2011
 :    **B.Sc.**, *Universität Tübingen*, Tübingen, Germany \
@@ -146,60 +152,72 @@ Im Laufe der Zeit bin ich durch eine Reihe von unterschiedlichen Rollen, Branche
     Title
       ~ An Open Source Based Performance Monitoring Tool for InfiniBand Networks
 
-    Beschreibung
-      ~ Ziel der Arbeit war eine flexible, modulare und intuitive Überwachung des Hochgeschwindigkeitsnetzwerks Inifiband in High Performance Computing Umgebungen.
+    Description
+      ~ The goal of the thesis was to create a flexible, modular and intuitive system to offer an overview of the network's current state.
 
-## Projekte
+## Projects
 
-2019 - heute
-: **MetaHub Registry**: Eine Container Registry, welche den Kontext des Users in Betracht zieht, um optimierte Container Images bereitzustellen. Normale Registries können sich nicht auf den anfragenden Benutzer/Client einlassen, da sie einfach statisch Images ausliefern. MetaHub nutzt den Usernamen und ein Profil um dynamisch reagieren zu [](https://frontend.metahub-registry.org/)
+This non-exhaustive list of pet-projects I am working on (/ used to work on) reflects how I push myself forward exploring unchartered territory.
 
-2023 - heute
-: **QNIB Shuffle**: Ein projekt um Dokumentationen zu modulariesieren. Als Developer Advocate bei AWS habe ich die Pipeline von publizierten von Workshops verantwortet und festgestellt, dass die Autoren stets von einem Workshop gestartet sind, den sie im Zugriff hatten und diesen abänderten. Damit wurde jedoch verhindert, dass Workshops von einander lernen können (upstream contribution) und die Autoren sich mit den anderen Workshops auseinandersetzen. QNIB Shuffle ist ein Projekt, welches die Dokumentationen modularisiert und den Autoren ermöglicht auf eine Blaupause aufzubauen, zu der sie (1) upstream beitragen können und (2) die sie für ihre Zwecke anpassen können. QNIB Shuffle setzt diese Erfahrung um und befindet sich gerade im Aufbau. [](https://qnib-golang.gitlab.io/qshuf/index.html)
+2019 - today
+: **MetaHub Registry**: MetaHub is an OCI compliant container registry which takes context into account to provide flexibility. [metahub-registry.org](https://frontend.metahub-registry.org/)
 
-2022 - heute
-: **HPC Container Conformance**: Ein Open Source Projekt, welches die Konformität von Container Engines in HPC Umgebungen zum Ziel hat. Das Projekt definiert best-practice und Guidelines wie container images gebaut werden sollten, welche Annotationen sie enthalten sollten und wie sie getestet werden können. [](https://blog.qnib.org/blog/2023/01/30/the-hpc-container-conformance-project)
+2023 - today
+: **QNIB Shuffle**: A tool to treat workshop pages like software libraries and generate documentation programatically. It is (loosely) inspired by compose files which allow for reuse of any component and (more importantly) libraries in any programming language. [qnib-golang.gitlab.io/qshuf](https://qnib-golang.gitlab.io/qshuf/index.html)
+
+2022 - today
+: **HPC Container Conformance**: A project to consolidate the common sense and best-practises on how HPC containers should be build to suite most HPC centers and how to annotate container images to make them discoverable. [https://qnib.org/blog/2023/01/30/the-hpc-container-conformance-project/](https://blog.qnib.org/blog/2023/01/30/the-hpc-container-conformance-project)
+
+2017 - 2018
+: **QFrame**: Inspired by the logging framework Logstash, I created a logging framework written in GOLANG. It takes the same general approach as Logstash (inputs, filters, outputs) but allows for capturing metrics and events. [qnib.org/qframe](https://qnib.org/qframe) / [qnib.org/blog/2017/04/30/melig-logeventmetric-collection-within-containers/](https://qnib.org/blog/2017/04/30/melig-logeventmetric-collection-within-containers/)
+
+2018
+: **Doxy**: A docker socket proxy to limit the use of the docker socket - back when it was not possible to do otherwise. [github.com/qnib/doxy](https://github.com/qnib/doxy)
+
+2014 - 2015:
+: **QNIB Terminal**: Set of stacks to create a multi-host cluster using Docker container. An important personal shift from VMs (using Packer) to containerized environments. It tought me a lot and had my bang my head against a lot of early teething pains. <br>[qnib.org/blog/category/qnibterminal/](https://qnib.org/blog/category/qnibterminal/)
+<br><br>
+<div style="page-break-after: always"></div>
 
 ## Community Engagements
 
-Durch meine explorative und kommunikative Natur habe ich meine Projekte und Ideen stets in der Öffentlichkeit kommuniziert und diskutiert.
-Meine YouTube playlist *Appearances* ([](https://www.youtube.com/playlist?list=PLfE3_wJGw9KS3PBvqEcDdpiODeDjAs5v8)) ist eine Sammlung dieser Engagements.
+Due to an explorative and communicative nature I am presenting my latest projects, research and ideas regularly. A couple of talks were recorded and can be found in the YouTube playlist *Appearances* ([](https://www.youtube.com/playlist?list=PLfE3_wJGw9KS3PBvqEcDdpiODeDjAs5v8)) or via link after the description below.
 
-### HPC/AI Konferenzen
+### HPC/AI Conferences
 
 **SC**
-:   Die Supercomputing Conference (SC) ist die weltweite Leitmesse für High Performance Computing (wissenschaftliches Rechnen) und wird alljährlich in den USA veranstaltet. Mit über 10.000 Teilnehmern und einem Fokus auf Höchstleistungsrechnungen und (mittlerweile) Künstliche Inteligenz.<br><br>
+:   The Supercomputing Conference (SC) is a well established HPC/AI conference held annually in the United States and focuses on large scale computing.<br><br>
 
     **'23** 
-      ~ Review Board des HPC Container Workshop CANOPIE-HPC.
+      ~ Review board of the HPC container workshop CANOPIE-HPC.
    
     **'22** 
-      ~ Publicity Chair des HPC Container Workshop CANOPIE-HPC.
+      ~ Publicity chair of and presenter at the HPC container workshop CANOPIE-HPC.
    
     **'19**
-      ~ Teilnahme an Panel- und Community Diskusionen.
+      ~ Attended panel- and community discussions as speaker and participant.
 
     **'18**
-      ~ Teilnahme an drei Panel Diskusionen über Container Technologie und die Konvergenz von Container und traditioneller IT in HPC und KI.
+      ~ Participated in three panel discussions about container technology and convergence of HPC and AI.
 
     **'17**
-      ~ Teilnahme als Docker Mitarbeiter, um container Technologie in HPC bekannt zu machen.
+      ~ Engaged with attendees to show that Docker cares about HPC/AI.
 
 <div style="page-break-after: always"></div>
 
 **ISC**
-:    Die International Supercomputing Conference (ISC) ist die europäische Leitmesse und 'Schwesterkonferenz) zur Supercomputing Conference (SC) in den USA. Mit ~3000 Teilnehmern ist sie ein wenig kleiner und wird jeden Sommer in Deutschland veranstaltet.<br><br>
+:    Spin-off conference almost as old as the SC above. A tad smaller, but more diverse and held in Germany every summer.<br><br>
 
     **'23**
-      ~ Chair des Workshops **9th Annual High Performance Container Workshop** [](https://container-in-hpc.org/isc/2023/hpcw/index.html)
+      ~ Chair of the workshops **9th Annual High Performance Container Workshop** [](https://container-in-hpc.org/isc/2023/hpcw/index.html)
   
     **'22**
-      ~ Chair des Workshops **8th Annual High Performance Container Workshop** [](https://container-in-hpc.org/isc/2022/1_hpcw.html)
-      ~ Chair der 'Bird Of a Feather Session' container-in-HPC: [](https://container-in-hpc.org/isc/2022/2_bof.html)
-      ~ Wissenschaftliches Poster 'GROMACS in the Cloud': [](https://container-in-hpc.org/isc/2022/3_poster-mpi.html)
+      ~ Chair of the workshops **8th Annual High Performance Container Workshop** [](https://container-in-hpc.org/isc/2022/1_hpcw.html)
+      ~ Chair 'Bird Of a Feather Session' container-in-HPC: [](https://container-in-hpc.org/isc/2022/2_bof.html)
+      ~ Scientific poster 'GROMACS in the Cloud': [](https://container-in-hpc.org/isc/2022/3_poster-mpi.html)
 
     **'21**
-      ~ Chair des Workshops **7th Annual High Performance Container Workshop** [](https://container-in-hpc.org/isc/2021/1_workshop.html)
+      ~ Chair of the workshops **7th Annual High Performance Container Workshop** [](https://container-in-hpc.org/isc/2021/1_workshop.html)
       ~ Chair of the invited session **Containers in HPC** [](https://youtu.be/9bg4A_QlcBc?t=73)
     
     **'20**
@@ -224,7 +242,7 @@ Meine YouTube playlist *Appearances* ([](https://www.youtube.com/playlist?list=P
       ~ **Docker: User-Friendly Application & Service Containers for HPC Environments** [](http://www.qnib.org/2015/07/16/isc2105-workshop/)
 
     **'14**
-      ~ Ausrichtung einer 'Birds of a Feather' Session und Interview mit InsideHPC über Containerbasiertes Logging [](https://container-in-hpc.org/isc/2015/1_workshop.html)
+      ~ Hosted Birds of a Feather talk and spoke to InsideHPC about containerized logging [](https://container-in-hpc.org/isc/2015/1_workshop.html)
 
     **'13**
       ~ **Does Supercomputing #MonitoringSucks?** [](https://www.youtube.com/watch?v=Jnk98pYbFqw)
@@ -235,25 +253,27 @@ Meine YouTube playlist *Appearances* ([](https://www.youtube.com/playlist?list=P
 ### HPC/AI Community
 
 **BDEC2**
-:    In der 'invite-only' Workshopreihe '**B**ig **D**ata and **E**xtrem Scale **C**omputing' werden die zukünftigen Herausforderungen und Chancen von High Performance Computing und Künstlicher Inteligenz diskutiert. Ausgerichtet von den nationalen Höchstleistungsrechenzentren werden Experten aus unterschiedlichen Bereichen eingeladen, um Expertise beizubringen.
+:  The second edition of the invite-only Big Data and Extrem Scale Computing workshop series discusses changes to the HPC and AI/ML community due to a merger and hence an upcoming continuum of HPC, Cloud, Edge and on-premise compute as well as close collaboration between first principle simulations in HPC and statistical methods in AI/ML. Attendees are national labs from all over the globe and invited speakers to shed light on different aspects.
 
     05/2019
-      ~ Dritter Workshop der Reihe in Poznan Polen, mit einem Fokus auf Platformen, Workflows, KI Integration und Prototypen. Ich habe mit CERN Openlab an einem Demostrator für High Energy Physics (HEP) gearbeitet. [](https://www.exascale.org/bdec/meeting/poznan)
+      ~ Third workshop in the series, which will focus on platforms, workflows, AI/ML integration, and demonstrators. I am currently working with CERN Openlab to propose demonstrators of HEP workloads. [](https://www.exascale.org/bdec/meeting/poznan)
 
     02/2019
-      ~ Workshop in **Kobe** (Japan) ([agenda](https://www.exascale.org/bdec/agenda/kobe)) auf dem ich meine Vision und einen Prototypen zur effizienten und Kontext-basierten Verfügungsstellung von Container Images präsentiert habe ([blog post](http://www.qnib.org/2019/02/14/manifest-list-to-pick-optimized-images/)).
+      ~ Workshop in **Kobe** (Japan) ([agenda](https://www.exascale.org/bdec/agenda/kobe)) I presented my vision and prototype on how ManifestLists can help distribute images in heterogenous environments ([blog post](http://www.qnib.org/2019/02/14/manifest-list-to-pick-optimized-images/)).
 
     11/2018
-      ~ Im ersten Teil des Workshops in **Bloomington** (USA) ([](https://www.exascale.org/bdec/agenda/indiana)) wurden die Ziele und Meilensteine der Serie definiert.
+      ~ During the first workshop in **Bloomington** (USA) ([](https://www.exascale.org/bdec/agenda/indiana))  the series was bootstrap and first goals and to-does for the next workshop were defined.
 
 **ADAC**
-: Ähnlich zu **BDEC2** ist diese 'invite-only' Workshopreihe  aus nationalen Höchstleistungsrechenzentren zusammengesetzt. Der Fokus lag hier mehr auf dem Austausch zwischen Zentren und Herstellern von HPC Infrastruktur.
+: Similar to **BDEC2** this invite-only workshop series comprises of a small group of attendees. Instead on focusing on a long horizon ADAC aims to have a more private setting for HPC site / vendor interactions.
 
     06/2018
-      ~ Ich habe an unterschiedlichen Panel-Diskussionen ([](https://iadac.github.io/events/adac6/)) teilgenommen und einen VOrtrag über 'Convergence of Hyperscale, Big Data and Big Compute' gehalten ([](https://iadac.github.io/events/adac6/kniep.pdf)).
+      ~ I participated in different platform related sessions throughout the workshop ([agenda](https://iadac.github.io/events/adac6/)) and gave a talk about the ([Convergence of Hyperscale, Big Data and Big Compute](https://iadac.github.io/events/adac6/kniep.pdf)).
+
+<div style="page-break-after: always"></div>
 
 **HPC/AI AC**
-: Von der Community getragene, weltweite Workshopreihe **HPC/AI Advisory Council**, welche die neusten Entwicklungen und Möglichkeiten im High Performance Cmputing (HPC) diskutiert.
+: This community driven series of workshops around the globe discusses the latest trends in HPC (which was extended to HPC/AI). Depending on the location the focus slightly changes
 
     04/2023
       ~ **HPC Container Conformance Project**, Lugano, Switzerland [](https://youtu.be/mnwUHJBEWPQ)
@@ -285,32 +305,28 @@ Meine YouTube playlist *Appearances* ([](https://www.youtube.com/playlist?list=P
     11/2014
       ~ **QNIBTerminal plus InfiniBand: Containerized MPI Workloads**, Guangzhou, China [](https://www.youtube.com/watch?v=f_663isRkXQ)
 
-<br><br><br><br><br>
-
-### Andere Events
-
-**Workshops**
-: Neben den oben aufgelisteten Workshopreihen habe ich in unterschiedlichen anderen Formaten teilgenommen.
+**Other Events**
+: Aside the reoccurring events above, some new appearances arose.
 
     06/2019
-      ~ **Containerized Convergence of HPC and AI/ML**, während des 'HPC Knowledge Meeting 2019' ([](http://www.hpckp.org/)) in Barcelona.
+      ~ **Containerized Convergence of HPC and AI/ML**, during the 'HPC Knowledge Meeting 2019' ([](http://www.hpckp.org/)) in Barcelona.
 
     03/2019
-      ~ **Containerized Convergence of Big Data and Big Compute** während der 'CompBioMed' ([](https://www.surf.nl/en/agenda/2019/03/compbiomed-containerisation-meeting/index.html)) in Amsterdam. Ein Event von Universitäten und der IT Industrie im Kontext von Bioinformatik Applikationen.
+      ~ **Containerized Convergence of Big Data and Big Compute** during 'CompBioMed' ([](https://www.surf.nl/en/agenda/2019/03/compbiomed-containerisation-meeting/index.html)) in Amsterdam. An event to talk about containerisation with industry and academia in the context of biomedical applications.
 
     03/2018
-      ~ **State of Container** bei der **HPC Saudi**, Jeddah, Saudi Arabia
+      ~ **State of Container** at **HPC Saudi**, Jeddah, Saudi Arabia
 
 ### Community
 
 **DockerCon**
-: Die Hausmesse der Firma 'Docker Inc'
+: In-house conference of 'Docker Inc'
 
     06/2018
       ~ **Accessible High Performance Computing for Everyone with Docker and Containers** [](https://www.youtube.com/watch?v=bipJNgYYNQs&list=PLkA60AVN3hh96Ef6GljWoGpXPG23rN7tQ&t=0s&index=54)
 
-**Container Days**
-: Deutsche Konferenz rund um Container Technologie.
+**ContainerDays**
+: German conference about Container technology.
 
     06/2019
       ~ **State of Containers in Big Data and Big Compute** [](https://www.containerdays.io)
@@ -319,7 +335,7 @@ Meine YouTube playlist *Appearances* ([](https://www.youtube.com/playlist?list=P
       ~ **State of Containers and the Convergence of Hyperscale, BigData and HPC** [](https://www.youtube.com/watch?v=O8XYSo7hutQ)
 
 **FOSDEM**
-: Alljährliche Open Source Konferenz in Belgien
+: Well established open source conference in Belgium.
 
     02/2023
       ~ **HPC Container Conformance Project** ([](https://archive.fosdem.org/2023/schedule/event/metahub/))
@@ -334,16 +350,16 @@ Meine YouTube playlist *Appearances* ([](https://www.youtube.com/playlist?list=P
 : **N**ordic **e**lectronic **I**nfrastructure **C**ollaboration Conference, which discusses how the Nordics can work together to not doublespend and maximize scientific and economic outcome.
 
     05/2015
-      ~ Vortrag über eine Container-basiertes Rechenzentrum-umgebung 'Spin up and monitor your own cluster stack with QNIBTerminal' [](https://qnib.org/2015/05/09/neic2015-distributed-logstash/index.html)
+      ~ Talk about a containerized SLURM cluster: 'Spin up and monitor your own cluster stack with QNIBTerminal' [](https://qnib.org/2015/05/09/neic2015-distributed-logstash/index.html)
 
 **OSDC**
-: **O**pen **S**ource **D**ata **C**enter Konferenz
+: **O**pen **S**ource **D**ata **C**enter Conference
 
     04/2014
       ~ **Understanding Your Datacenter by Overlaying Multiple Information Layers** [](https://www.youtube.com/watch?v=BaucB2eeQ6g)
 
 **MMB&DFT**
-: IT Konferenz über Messbarkeit und Ressilienz von IT Systemen
+: IT conference about resilience and observibility of IT systems.
 
     07/2012
       ~ **OpenIBPM: An Open Source Based Framework for InfiniBand performance Monitoring**

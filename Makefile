@@ -66,7 +66,7 @@ media: | directories
 	rsync -rupE $(IMAGES_DIR) $(DIST_DIR)
 
 # Target for building CV document in html
-html: media style templates/cv.html parts $(SRC_DIR)/cv-$(SRC_LANG).md | directories
+html: media style templates/cv.html parts $(SRC_DIR)/cv.md | directories
 	pandoc --standalone \
 	  --section-divs \
 	  --template templates/cv.html \
@@ -77,29 +77,29 @@ html: media style templates/cv.html parts $(SRC_DIR)/cv-$(SRC_LANG).md | directo
 	  --pdf-engine-opt=--enable-local-file-access \
 	  --variable=date:'$(DATE)' \
 	  --css stylesheets/style.css \
-	  --output $(DIST_DIR)/cv-$(SRC_LANG).html $(SRC_DIR)/cv-$(SRC_LANG).md
+	  --output $(DIST_DIR)/cv.html $(SRC_DIR)/cv.md
 
 # Target for building CV document in PDF
 pdf: html pdftags
 ifeq ($(HTMLTOPDF),wkpdf)
-	wkpdf --paper a4 --margins 30 --print-background yes --orientation portrait --stylesheet-media print --source $(DIST_DIR)/cv-$(SRC_LANG).html --output $(DIST_DIR)/cv-$(SRC_LANG).pdf
+	wkpdf --paper a4 --margins 30 --print-background yes --orientation portrait --stylesheet-media print --source $(DIST_DIR)/cv.html --output $(DIST_DIR)/cv.pdf
 else
-	wkhtmltopdf --print-media-type --enable-local-file-access --orientation Portrait --page-size A4 --margin-top 15 --margin-left 15 --margin-right 15 --margin-bottom 15 $(DIST_DIR)/cv-$(SRC_LANG).html $(DIST_DIR)/cv-$(SRC_LANG).pdf
+	wkhtmltopdf --print-media-type --enable-local-file-access --orientation Portrait --page-size A4 --margin-top 15 --margin-left 15 --margin-right 15 --margin-bottom 15 $(DIST_DIR)/cv.html $(DIST_DIR)/cv.pdf
 endif
-	exiftool $(shell cat $(BUILD_DIR)/pdftags.txt) $(DIST_DIR)/cv-$(SRC_LANG).pdf
+	exiftool $(shell cat $(BUILD_DIR)/pdftags.txt) $(DIST_DIR)/cv.pdf
 
-pdftags: $(SRC_DIR)/cv-$(SRC_LANG).md
+pdftags: $(SRC_DIR)/cv.md
 	pandoc \
 	--from markdown+yaml_metadata_block \
 	--template templates/pdf.metadata \
 	--template templates/pdf.metadata \
 	--pdf-engine-opt=--enable-local-file-access \
 	--variable=date:'$(DATE)' \
-	--output $(BUILD_DIR)/pdftags-$(SRC_LANG).txt $(SRC_DIR)/cv-$(SRC_LANG).md
+	--output $(BUILD_DIR)/pdftags.txt $(SRC_DIR)/cv.md
 
 # Target for build CV part in html
 parts: $(PARTS)
-$(PARTS): $(BUILD_DIR)/%-$(SRC_LANG).html: $(SRC_DIR)/%-$(SRC_LANG).md | directories
+$(PARTS): $(BUILD_DIR)/%.html: $(SRC_DIR)/%.md | directories
 	pandoc \
 	--section-divs \
 	--pdf-engine-opt=--enable-local-file-access \
