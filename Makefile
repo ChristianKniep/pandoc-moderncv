@@ -1,10 +1,11 @@
 SRC_DIR =  cv
+SRC_LANG = en
 BUILD_DIR = build
 FONTS_DIR = fonts
 SCAFFOLDS_DIR = scaffolds
 IMAGES_DIR = $(SRC_DIR)/images
 DIST_DIR = dist
-HTMLTOPDF = wkpdf
+HTMLTOPDF = wkhtmltopdf
 DATE = $(shell date +'%B %d, %Y')
 
 ifeq "$(wildcard $(SRC_DIR) )" ""
@@ -65,7 +66,7 @@ media: | directories
 	rsync -rupE $(IMAGES_DIR) $(DIST_DIR)
 
 # Target for building CV document in html
-html: media style templates/cv.html parts $(SRC_DIR)/cv.md | directories
+html: media style templates/cv.html parts $(SRC_DIR)/cv-$(SRC_LANG).md | directories
 	pandoc --standalone \
 	  --section-divs \
 	  --template templates/cv.html \
@@ -73,32 +74,35 @@ html: media style templates/cv.html parts $(SRC_DIR)/cv.md | directories
 	  --to html5 \
 	  $(before-body) \
 	  $(after-body) \
+	  --pdf-engine-opt=--enable-local-file-access \
 	  --variable=date:'$(DATE)' \
 	  --css stylesheets/style.css \
-	  --output $(DIST_DIR)/cv.html $(SRC_DIR)/cv.md
+	  --output $(DIST_DIR)/cv-$(SRC_LANG).html $(SRC_DIR)/cv-$(SRC_LANG).md
 
 # Target for building CV document in PDF
 pdf: html pdftags
 ifeq ($(HTMLTOPDF),wkpdf)
-	wkpdf --paper a4 --margins 30 --print-background yes --orientation portrait --stylesheet-media print --source $(DIST_DIR)/cv.html --output $(DIST_DIR)/cv.pdf
+	wkpdf --paper a4 --margins 30 --print-background yes --orientation portrait --stylesheet-media print --source $(DIST_DIR)/cv-$(SRC_LANG).html --output $(DIST_DIR)/cv-$(SRC_LANG).pdf
 else
-	wkhtmltopdf --print-media-type --orientation Portrait --page-size A4 --margin-top 15 --margin-left 15 --margin-right 15 --margin-bottom 15 $(DIST_DIR)/cv.html $(DIST_DIR)/cv.pdf
+	wkhtmltopdf --print-media-type --enable-local-file-access --orientation Portrait --page-size A4 --margin-top 15 --margin-left 15 --margin-right 15 --margin-bottom 15 $(DIST_DIR)/cv-$(SRC_LANG).html $(DIST_DIR)/cv-$(SRC_LANG).pdf
 endif
-	exiftool $(shell cat $(BUILD_DIR)/pdftags.txt) $(DIST_DIR)/cv.pdf
+	exiftool $(shell cat $(BUILD_DIR)/pdftags.txt) $(DIST_DIR)/cv-$(SRC_LANG).pdf
 
-pdftags: $(SRC_DIR)/cv.md
+pdftags: $(SRC_DIR)/cv-$(SRC_LANG).md
 	pandoc \
 	--from markdown+yaml_metadata_block \
 	--template templates/pdf.metadata \
 	--template templates/pdf.metadata \
+	--pdf-engine-opt=--enable-local-file-access \
 	--variable=date:'$(DATE)' \
-	--output $(BUILD_DIR)/pdftags.txt $(SRC_DIR)/cv.md
+	--output $(BUILD_DIR)/pdftags-$(SRC_LANG).txt $(SRC_DIR)/cv-$(SRC_LANG).md
 
 # Target for build CV part in html
 parts: $(PARTS)
-$(PARTS): $(BUILD_DIR)/%.html: $(SRC_DIR)/%.md | directories
+$(PARTS): $(BUILD_DIR)/%-$(SRC_LANG).html: $(SRC_DIR)/%-$(SRC_LANG).md | directories
 	pandoc \
 	--section-divs \
+	--pdf-engine-opt=--enable-local-file-access \
 	--from markdown+header_attributes \
 	--variable=date:'$(DATE)' \
 	--to html5 -o $@ $<

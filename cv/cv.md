@@ -152,7 +152,7 @@ Im Laufe der Zeit bin ich durch eine Reihe von unterschiedlichen Rollen, Branche
 ## Projekte
 
 2019 - heute
-: **MetaHub Registry**: Eine Container Registry, welche den Kontext des Users in Betracht zieht, um optimierte Container Images bereitzustellen. Normale Registries können sich nicht auf den anfragenden Benutzer/Client einlassen, da sie einfach statisch Images ausliefern. MetaHub nutzt den Usernamen und ein Profil um dynamisch reagieren zu können. [](https://frontend.metahub-registry.org/)
+: **MetaHub Registry**: Eine Container Registry, welche den Kontext des Users in Betracht zieht, um optimierte Container Images bereitzustellen. Normale Registries können sich nicht auf den anfragenden Benutzer/Client einlassen, da sie einfach statisch Images ausliefern. MetaHub nutzt den Usernamen und ein Profil um dynamisch reagieren zu [](https://frontend.metahub-registry.org/)
 
 2023 - heute
 : **QNIB Shuffle**: Ein projekt um Dokumentationen zu modulariesieren. Als Developer Advocate bei AWS habe ich die Pipeline von publizierten von Workshops verantwortet und festgestellt, dass die Autoren stets von einem Workshop gestartet sind, den sie im Zugriff hatten und diesen abänderten. Damit wurde jedoch verhindert, dass Workshops von einander lernen können (upstream contribution) und die Autoren sich mit den anderen Workshops auseinandersetzen. QNIB Shuffle ist ein Projekt, welches die Dokumentationen modularisiert und den Autoren ermöglicht auf eine Blaupause aufzubauen, zu der sie (1) upstream beitragen können und (2) die sie für ihre Zwecke anpassen können. QNIB Shuffle setzt diese Erfahrung um und befindet sich gerade im Aufbau. [](https://qnib-golang.gitlab.io/qshuf/index.html)
