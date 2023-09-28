@@ -1,5 +1,5 @@
 SRC_DIR =  cv
-SRC_LANG = en
+SRC_LANG = de
 BUILD_DIR = build
 FONTS_DIR = fonts
 SCAFFOLDS_DIR = scaffolds
@@ -29,10 +29,15 @@ endif
 # after-body contains all parts but public and private
 after-body = $(filter-out $(BUILD_DIR)/public.html $(BUILD_DIR)/private.html, $(PARTS))
 
-.PHONY: all directories media style parts html pdf clean
+.PHONY: all copy directories media style parts html pdf clean
 
 # default target is build CV in html
 all: html
+
+# Copy LANG into cv/
+copy:
+	cp cv-$(SRC_LANG).md $(SRC_DIR)/cv.md
+	echo "Copied cv-$(SRC_LANG).md to $(SRC_DIR)/cv.md"
 
 # Targets for creating working directories
 directories: $(BUILD_DIR) $(DIST_DIR)
@@ -66,7 +71,7 @@ media: | directories
 	rsync -rupE $(IMAGES_DIR) $(DIST_DIR)
 
 # Target for building CV document in html
-html: media style templates/cv.html parts $(SRC_DIR)/cv.md | directories
+html: copy media style templates/cv.html parts $(SRC_DIR)/cv.md | directories
 	pandoc --standalone \
 	  --section-divs \
 	  --template templates/cv.html \
