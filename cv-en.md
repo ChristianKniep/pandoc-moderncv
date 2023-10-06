@@ -47,13 +47,14 @@ Over the course of my career I iterated through a lot of roles in different indu
     06/2023 - today
       ~ **Freelance IT Consultant**,Max Planck Institute for Human Development, Berlin, Germany<br>
       Extending traditional storage w/ MinIO on K8s, Consolidating asset management to JIRA Assets, consult w/ containers in research environment.
+
     07/2023
-      ~ **Tech Due Dilligence**: Im Juli 2023 habe ich ein AI Startup für [EarlyBird Venture Capital](https://earlybird.com/) im Bezug auf die AI Strategie und den Container TechStack evaluiert. Das StartUp entwickelt eine Kubernetes basierte Deployment platform für AI Modelle 'on the edge'.
+      ~ **Tech Due Dilligence**: Evaluation of the container stack and the AI/ML strategy of an AI-on-the-edge Startup on behalf of [EarlyBird Venture Capital](https://earlybird.com/). The StartUp develops a selective collection mechanism on the edge to improve the AI model training as well as streamlining the deployment and lifecycle management of models in edge environments based on Kubernetes.
 
     05/2022 - today
       ~ **Project Lead MetaHub** After leaving AWS I picked up the project MetaHub to create a container registry to serve optimized container images based on the context of a user. 
 
-<div style="page-break-after: always"></div>
+<br>
 
 **AWS**
 : I joined AWS as Senior Specialist Solutions Architect for EC2 Spot. After almost a year into the role I moved to the HPC product team as the first member of the newly formed Developer Relations Team for High Performance Computing.

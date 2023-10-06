@@ -11,4 +11,4 @@ RUN apt-get update \
  && gem install compass \
  && gem install susy \
  && rm -rf /var/lib/apt/lists/*
-#RUN pip install pandoc-include  
+RUN pip install pandoc-include  
