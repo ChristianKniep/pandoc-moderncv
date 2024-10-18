@@ -3,7 +3,7 @@ lang: de
 title: Curriculum Vitae
 firstname: Christian
 lastname: Kniep
-photo: images/me_badge2019.png
+#photo: images/me_badge2019.png
 contact: mailto:christian@qnib.org
 email: christian@qnib.org
 mobile: '+49 152 21803161'
@@ -14,17 +14,15 @@ settings:
   protect-email: true
   protect-mobile: true
 footer: |
-  - [CQnib](http://twitter.com/CQnib)
   - [ChristianKniep](http://github.com/ChristianKniep)
   - [ChristianKniep](https://www.linkedin.com/in/christian-kniep-3004b053/)
-  -
 ---
 
 ## Profil
 
 Über mich
 : Ich bin ein Praktiker und lerne am Besten, in dem ich mich in Probleme einarbeite, Anwendungsfälle durchdringe und eine prototypische Lösung erstelle. Dabei betrachte ich das Problem holistisch von unterschiedlichen Blickwinkeln (Anwender-, sowie Betriebs- und Verwaltungssicht) und mir Feedback aus meinem Netzwerk und beteiligten Communities einhole.<br>
-Über die vergangenen (fast) 20 Jahre habe ich eine große Bandbreite von Rollen (Auszubildender, System/DevOps/R&E/Release Engineer, Customer Advocate, Solution Architect und Developer Advocate) in unterschiedlichen Branchen und interdiziplinären Teams weltweit erfahren dürfen.
+Über die vergangenen 25 Jahre habe ich eine große Bandbreite von Rollen (Auszubildender, System/DevOps/R&E/Release Engineer, Customer Advocate, Solution Architect und Developer Advocate) in unterschiedlichen Branchen und interdiziplinären Teams weltweit erfahren dürfen.
 
 Kollaboration & Innovation
 : Durch Auftritte bei Konferenzen, Workshops und Meetups, Blog post, Partizipation in Podcast und Tutorials, habe ich meine Erfahrungen und Ideen für andere konsumierbar gemacht. In gemeinsamen Engagements mit dem Max Plank Institute, HPC Nepal, Nationale Rechenzentren der Schweiz (CSCS), den USA (LLNL, NERSC, LANL) und vielen weiteren habe ich Innovationen stets vorantreiben können und tue dies immernoch mit Leidenschaft.
@@ -32,8 +30,8 @@ Kollaboration & Innovation
 Vision
 : Diversifizierte Umgebungen in der Cloud, in lokalen Rechenzentren und in der Breite (Edge/IoT) mit unterschiedlichen Architekturen (Monolit, Microservies, Serverless) und Organisationsstrukturen (matrix, hierachisch, projektbasiert) üben seit langem eine Fazination auf mich aus. Mein Ansporn ist es, dies in anwendungsorientierten und zukunftsgewandten Projekten für die breite Masse verfügbar zu machen und Synergien zu heben.
 
-Persönliche Engagements 
-: Seit seiner Gründung in 2021 bin ich erster Vorsitzender des Vereins 'Böddenstedt vernetzt - Verein zur Förderung bürgerschaftlichen Engagemnts e.V.'. Ziel des Vereins ist die Vernetzung der Dorfgemeinschaft meines Heimatortes in Niedersachsen durch Informationsaustausch und Bündelung von Ressourcen.
+Persönliche Engagements
+: Im Jahr 2021 habe ich als erster Vorsitzender den Vereins 'Böddenstedt vernetzt - Verein zur Förderung bürgerschaftlichen Engagemnts e.V.' mitgegründet. Ziel des Vereins ist die Vernetzung der Dorfgemeinschaft meines Heimatortes in Niedersachsen durch Informationsaustausch und Bündelung von Ressourcen. Seit Ende 2023 habe ich aus Zeitgründen den Vorsitz abgegeben.
 
 ## Beruflicher Werdegang
 
@@ -43,11 +41,19 @@ Im Laufe der Zeit bin ich durch eine Reihe von unterschiedlichen Rollen, Branche
 
 : Nach dem Fortgang von AWS habe ich das Projekt MetaHub verfolgt. Eine Container Registry die den Kontext des Users in Batracht zieht um optimierte Container images bereitzustellen. Nach einem Jahr vollen Fokus auf die Registry habe ich Mitte 2023 angefangen als freier Mitarbeiter und IT Berater zu arbeiten.
 
+    08/2024 - heute
+      ~ **Freier IT Mitarbeiter**,MemVerge Inc, Milpitas, CA, USA<br>
+      HPC Developer Advocacy um die MemVerge Produkte zum Snapshotten/Restoren von containerisierten Workflows auf AWS Batch anzupassen. Erstellung von Prototypen und Konzepten für Kunden.
+  
+    06/2023 - heute
+      ~ **Freier IT Mitarbeiter**,Max Planck Institut für Bildungsforschung, Berlin, Deutschland<br>
+      Konsolidierung des Assets Managements, Einführung MinIO Storage für Forschungsdaten, IT Beratung.
+    
     07/2023
       ~ **Tech Due Dilligence**: Im Juli 2023 habe ich ein AI Startup für [EarlyBird Venture Capital](https://earlybird.com/) im Bezug auf die AI Strategie und den Container TechStack evaluiert. Das StartUp entwickelt eine Kubernetes basierte Deployment platform für AI Modelle 'on the edge'.
 
-    05/2022 - heute
-      ~ **Project Lead MetaHub** Mit MetaHub habe ich eine Projektidee aus 2019 wieder aufgegriffen bei der eine Container Registry über den Kontext eines Users optimierte Container Images bereitstellt. 
+    05/2022 - 06/2023
+      ~ **Project Lead MetaHub** Mit MetaHub habe ich eine Projektidee aus 2019 wieder aufgegriffen bei der eine Container Registry über den Kontext eines Users optimierte Container Images bereitstellt.
 
 <div style="page-break-after: always"></div>
 
@@ -99,6 +105,8 @@ Im Laufe der Zeit bin ich durch eine Reihe von unterschiedlichen Rollen, Branche
     09/2008 - 07/2010
       ~ **Systems Engineer (Werkstudent 20Std/Woche)**: Erstellung einer halbjährlichen Evaluation von Arbeitsplatzrechnern für ein Konsortium von deutschen Automobilherstellern.
 
+<br><br>
+
 **PROSIS GmbH**
 : IT-Beratungsfirma in der Region Ingolstadt
 
@@ -112,7 +120,7 @@ Im Laufe der Zeit bin ich durch eine Reihe von unterschiedlichen Rollen, Branche
       ~ **IT-Berater**: Erstellung eines digitalen Videorekorder-System (basierend auf Linux), um die analogen Videorekorder des RMZ abzulösen. Diese haben TV Programme für die Forschung und Lehre aufgenommen und archiviert.
 
     08/2002 - 07/2005
-      ~ **Ausbildung 'Fachinformatiker/Systemintegration'**
+      ~ **Ausbildung 'Fachinformatiker/Systemintegration'** Der Begin meiner IT Laufbahn als Auszubildener in der IT Werkstatt des Rechen- und Medienzentrums der Universität Lüneburg. Während der Ausbildung habe ich die Grundlagen der IT gelernt (Netzwerk, Server, Storage, Betriebssysteme, Programmierung, Datenbanken, etc.). Durch die Affinität der Kollegen für UNIX Systeme konnte ich erste Erfahrungen mit diesen (damals) relativ unbekannten Systemen sammeln.
 
 ## Sonstige Stationen
 
@@ -185,11 +193,12 @@ Meine YouTube playlist *Appearances* ([](https://www.youtube.com/playlist?list=P
     **'17**
       ~ Teilnahme als Docker Mitarbeiter, um container Technologie in HPC bekannt zu machen.
 
-<div style="page-break-after: always"></div>
-
 **ISC**
 :    Die International Supercomputing Conference (ISC) ist die europäische Leitmesse und 'Schwesterkonferenz) zur Supercomputing Conference (SC) in den USA. Mit ~3000 Teilnehmern ist sie ein wenig kleiner und wird jeden Sommer in Deutschland veranstaltet.<br><br>
 
+    **'24**
+      ~ Chair des Workshops **10th Annual High Performance Container Workshop** [](https://container-in-hpc.org/isc/2024/hpcw/index.html)
+  
     **'23**
       ~ Chair des Workshops **9th Annual High Performance Container Workshop** [](https://container-in-hpc.org/isc/2023/hpcw/index.html)
   
@@ -246,6 +255,7 @@ Meine YouTube playlist *Appearances* ([](https://www.youtube.com/playlist?list=P
     11/2018
       ~ Im ersten Teil des Workshops in **Bloomington** (USA) ([](https://www.exascale.org/bdec/agenda/indiana)) wurden die Ziele und Meilensteine der Serie definiert.
 
+<div style="page-break-after: always"></div>
 **ADAC**
 : Ähnlich zu **BDEC2** ist diese 'invite-only' Workshopreihe  aus nationalen Höchstleistungsrechenzentren zusammengesetzt. Der Fokus lag hier mehr auf dem Austausch zwischen Zentren und Herstellern von HPC Infrastruktur.
 
@@ -285,8 +295,6 @@ Meine YouTube playlist *Appearances* ([](https://www.youtube.com/playlist?list=P
     11/2014
       ~ **QNIBTerminal plus InfiniBand: Containerized MPI Workloads**, Guangzhou, China [](https://www.youtube.com/watch?v=f_663isRkXQ)
 
-<br><br><br><br><br>
-
 ### Andere Events
 
 **Workshops**
@@ -320,6 +328,9 @@ Meine YouTube playlist *Appearances* ([](https://www.youtube.com/playlist?list=P
 
 **FOSDEM**
 : Alljährliche Open Source Konferenz in Belgien
+
+    02/2024
+      ~ **HPC Container Conformance** ([](https://archive.fosdem.org/2024/schedule/event/fosdem-2024-2275-hpc-container-conformance/))
 
     02/2023
       ~ **HPC Container Conformance Project** ([](https://archive.fosdem.org/2023/schedule/event/metahub/))

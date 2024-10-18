@@ -1,0 +1,8 @@
+services:
+  pdf-generator:
+    build:
+      context: .  # Dockerfile befindet sich im aktuellen Verzeichnis
+    volumes:
+      - .:/data  # Das aktuelle Verzeichnis wird als /data in den Container gemountet
+    working_dir: /data  # Das Arbeitsverzeichnis innerhalb des Containers
+    command: make pdf
